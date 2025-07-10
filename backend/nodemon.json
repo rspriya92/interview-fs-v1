@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "node --no-warnings --enable-source-maps --loader ts-node/esm src/index.ts"
+}
+
