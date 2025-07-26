@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body, #root {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f9fafb; /* Tailwind's gray-50 */
+  margin: 0;
+}
+/* In your global CSS file, e.g., src/index.css */
+
+.table-zebra tbody tr:nth-child(odd) {
+  background-color: theme('colors.emerald.50'); /* Changed to emerald.50 for alternate rows */
+}
+
+/* Ensure default zebra styling is overridden if necessary */
+.table-zebra tbody tr {
+    background-color: transparent;
+}
+
+.table-zebra tbody tr:nth-child(even) {
+    background-color: white; /* Keep white for non-striped rows */
+}
