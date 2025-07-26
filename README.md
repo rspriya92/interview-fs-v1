@@ -1,8 +1,8 @@
 # interview-fs-v1
 Boilerplate template for Live Coding interview | Full Stack Engineer
 **Backend Strucutre**
-src\server.ts - for all event APIs
-src\routes\attendess.ts - for all participant/attendee APIs
+src\server.ts - for all event APIs \n
+src\routes\attendess.ts - for all participant/attendee APIs\n
 
 **Database**
 backend\event.db - for the SQLite storage database
